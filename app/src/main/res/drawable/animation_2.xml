@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/food_5" android:duration="4000" />
+    <item android:drawable="@drawable/sport_2" android:duration="4000" />
+    <item android:drawable="@drawable/fruit1" android:duration="4000" />
+    <item android:drawable="@drawable/sport_3" android:duration="4000" />
+
+</animation-list>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shaer.dietdatabase">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Diet Tracker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SeachAndScan"
+            android:label="Search And Scan"/>
+
+        <activity
+            android:name=".SettingPage"
+            android:label="Goal Settings" />
+
+        <activity
+            android:name=".displayNutrient"
+            android:label="displayNutrient" />
+
+        <activity
+            android:name=".ProfileLog"
+            android:label="Profile Log" />
+
+        <activity
+            android:name=".Pacer"
+            android:label="Pacer" />
+
+        <activity android:name=".foodLogs" />
+        <activity android:name=".info"
+            android:label="Info"/>
+
+        <activity android:name=".ActualMainAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
